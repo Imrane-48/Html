@@ -1,5 +1,43 @@
-#img{
 
-    height: 500px;
-    width: 1500px;
+.bg-img {
+   
+    background-image: url("bg.jpg");
+  
+    background-position: center;
+   width: 1500px;
+  height: 500px;
+    position: relative;
+  }
+
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  #logo{
+    height: 50px;
+    width:100px;
+  }
+ #A{
+    margin-right: 10px;
+    color: azure;
+ }
+ #M{
+    margin-right: 10px;  
+    color: azure;
+ }
+ #P{
+    margin-right: 10px;
+    color: azure;
+ }
+#Nature{
+    color: white;
+    font-family: Times ;
+    font-weight: bolder;
+    font-size: 70px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
 }
