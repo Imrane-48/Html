@@ -1,4 +1,6 @@
-
+body{
+  margin-left: 7px;
+}
 .bg-img {
    
     background-image: url("bg.jpg");
@@ -41,3 +43,36 @@
     justify-content: space-around;
     margin-top: 40px;
 }
+#Hé{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+  }
+.photo{
+  margin: none;
+  padding: none;
+  height: 500px;
+  width: 300px;
+}
+.Par{
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Price{
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(99, 228, 0);
+}
+.butt{
+  border-radius: 90px;
+  padding: 10px;
+  background: rgb(99, 228, 0);
+  color:white;
+  border: none;
+}
+#Hà{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+  }
+  
