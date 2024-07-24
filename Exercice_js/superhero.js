@@ -1,6 +1,6 @@
-const superhero = {
+const izoku = {
   name: "Deku",
-  alias: "izoku midoriya",
+  alias: "Izoku midoriya",
   age: 15,
   powers: ["super strength", "flight", "danger sense", "smoke", "Blackwhip"],
 
@@ -13,3 +13,10 @@ const superhero = {
     console.log(`${this.name} doesn't have the power of ${this.power}.`);
   },
 };
+izoku.haircolor = Green;
+izoku.job = superhero;
+izoku.school = UA;
+ 
+console.log (izoku)
+delete izoku.job
+console.log ("after deleting izoku job " )
