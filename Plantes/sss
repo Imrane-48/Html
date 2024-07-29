@@ -1,0 +1,45 @@
+ <img src="1.jpg" class="photo">
+        <div class="count">
+            <p class="price-tag">Plante</p> <P class="price-tag">24,99€</P> 
+            <button class="butt"> Ensavoir plus</button>
+        </div>
+        <img src="2.jpg" class="photo">
+        <div class="count">
+            <p class="price-tag">Plante</p> <P class="price-tag">14,99€</P> 
+            <button class="butt"> Ensavoir plus</button>
+        </div>
+        <img src="3.jpg" class="photo">
+        <div class="count">
+            <p class="price-tag">Plante</p> <P class="price-tag">24,99€</P> 
+            <button class="butt"> Ensavoir plus</button>
+        </div>
+        <img src="4.jpg" class="photo">
+        <div class="count">
+            <p class="price-tag">Plante</p> <P class="price-tag">29,99€</P> 
+            <button class="butt"> Ensavoir plus</button>
+
+
+        </section> <br><br>
+        <section class="card">
+     <P id="Hà">Nos plantes</P><br>
+     <div class="card">
+     <img src="1 b (1).jpg" class="imgs" >
+     <p class="price-tag">Plante</p> <P class="price-tag">17,99€</P> 
+                 <button class="butt"> Ensavoir plus</button>
+     <img src="1 b (2).jpg" class="imgs" >
+     <p class="price-tag">Plante</p> <P class="price-tag">44,99€</P> 
+                 <button class="butt"> Ensavoir plus</button>
+     <img src="1 b (3).jpg" class="imgs">
+     <p class="price-tag">Plante</p> <P class="price-tag">9,99€</P> 
+                 <button class="butt"> Ensavoir plus</button><br>
+     <img src="1 b (4).jpg" class="imgss">
+     <p class="price-tag">Plante</p> <P class="price-tag">39,99€</P> 
+                 <button class="butt"> Ensavoir plus</button><br>
+     <img src="1 b (5).jpg" class="imgss">
+     <p class="price-tag">Plante</p> <P class="price-tag">17,99€</P> 
+                 <button class="butt"> Ensavoir plus</button><br>
+     <img src="1 b (6).jpg" class="imgss">
+     <p class="price-tag">Plante</p> <P class="price-tag">24,99€</P> 
+                 <button class="butt"> Ensavoir plus</button>    <br>
+     </div>
+     </section>

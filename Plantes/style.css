@@ -52,14 +52,11 @@ color: rgb(99, 228, 0);
   height: 500px;
   width: 300px;
 }
-.price-tag{
-  font-size: larger;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 .price-tag{
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(99, 228, 0);
+  color: black;
 }
 .butt{
   border-radius: 90px;
@@ -67,8 +64,11 @@ color: rgb(99, 228, 0);
   background: rgb(99, 228, 0);
   color:white;
   border: none;
-  cursor: pointer
-  
+  cursor: pointer;
+}
+
+.btn{
+  color: rgb(99, 228, 0);
 }
 .butt:hover{
   background-color: white;
@@ -81,19 +81,68 @@ color: rgb(99, 228, 0);
   font-weight: bold;
   margin-top: 20px;
   }
-  .imgs{
-    width: 600px;
-    height: 500px;
-    display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(2,300px);
-  justify-content: center;
-  align-content: end;
+  .item{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around ;
+    background-image: url(1.jpg);
+    width: 500px;
+    height: 600px;
   }
-  .imgss{
-    width: 450px;
-    height: 500px;
+  .butom{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.792);
+  }
+  .item2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around ;
+    background-image: url(2.jpg);
+    width: 500px;
+    height: 600px;
+  }
+  .butom2{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.792);
+  }
+  .item3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around ;
+    background-image: url(3.jpg);
+    width: 500px;
+    height: 600px;
+  }
+  .butom3{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.792);
+  }
+  .item4{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around ;
+    background-image: url(4.jpg);
+    width: 500px;
+    height: 600px;
+  }
+  .butom4{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.792);
+  }
+  .items{
     display: inline;
   }
+  
  
