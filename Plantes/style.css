@@ -41,7 +41,11 @@ color: rgb(99, 228, 0);
     justify-content: space-around;
     margin-top: 40px;
 }
-#Hé{
+.N{
+  border-bottom: solid 5px;
+  border-color: rgb(99, 228, 0) ;
+}
+.Hé{
   font-size: 50px;
   font-weight: bold;
   margin-top: 20px;
@@ -85,64 +89,75 @@ color: rgb(99, 228, 0);
     display: flex;
     align-items: flex-end;
     justify-content: space-around ;
-    background-image: url(1.jpg);
-    width: 500px;
+    width: 400px;
     height: 600px;
   }
+  .item1{
+    background-image: url(1.jpg);
+  }
   .butom{
-    display: flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: 500px;
+    justify-content: center;
+    width: 400px;
     height: 100px;
     background-color: rgba(255, 255, 255, 0.792);
   }
   .item2{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around ;
+   
     background-image: url(2.jpg);
-    width: 500px;
-    height: 600px;
-  }
-  .butom2{
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 100px;
-    background-color: rgba(255, 255, 255, 0.792);
-  }
-  .item3{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around ;
-    background-image: url(3.jpg);
-    width: 500px;
-    height: 600px;
-  }
-  .butom3{
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 100px;
-    background-color: rgba(255, 255, 255, 0.792);
-  }
-  .item4{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around ;
-    background-image: url(4.jpg);
-    width: 500px;
-    height: 600px;
-  }
-  .butom4{
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 100px;
-    background-color: rgba(255, 255, 255, 0.792);
-  }
-  .items{
-    display: inline;
+   
   }
   
+  
+  .item3{
+    
+    background-image: url(3.jpg);
+    
+  }
+  
+  .item4{
+    
+    background-image: url(4.jpg)  ;
+   
+  }
+  
+  .items{
+    display: flex;
+    gap: 15px;
+    width: 1650px;
+    flex-wrap: wrap;
+  }
+  .item1b{
+    background-image: url(1b.jpg);
+  }
+  .item2b{
+    background-image: url(2b.jpg);
+  }
+  .item3b{
+    background-image: url(3b.jpg);
+  }
+  .item4b{
+    background-image: url(4b.jpg);
+   
+  }
+  .item5b{
+    background-image: url(5b.jpg);
+    
+  }
+  .item6b{
+    background-image: url(6b.jpg);
+    
+  }
+  .Imgs {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
  
