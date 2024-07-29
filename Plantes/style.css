@@ -11,14 +11,12 @@ body{
     position: relative;
   }
 
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
   #logo{
     height: 50px;
     width:100px;
+  }
+  .nav:hover{
+color: rgb(99, 228, 0);
   }
  #A{
     margin-right: 10px;
@@ -54,11 +52,11 @@ body{
   height: 500px;
   width: 300px;
 }
-.Par{
+.price-tag{
   font-size: larger;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.Price{
+.price-tag{
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(99, 228, 0);
@@ -69,11 +67,33 @@ body{
   background: rgb(99, 228, 0);
   color:white;
   border: none;
+  cursor: pointer
+  
+}
+.butt:hover{
+  background-color: white;
+  border: solid;
+  border-color: greenyellow ;
+  color: greenyellow;
 }
 #Hà{
   font-size: 50px;
   font-weight: bold;
   margin-top: 20px;
   }
-  
-  
+  .imgs{
+    width: 600px;
+    height: 500px;
+    display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2,300px);
+  justify-content: center;
+  align-content: end;
+  }
+  .imgss{
+    width: 450px;
+    height: 500px;
+    display: inline;
+  }
+ 
