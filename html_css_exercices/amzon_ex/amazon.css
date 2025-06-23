@@ -1,0 +1,28 @@
+#link{
+    color: rgb(0, 113, 133);
+}
+#Nike{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#price{
+    font-weight: bold;
+ color: rgb(0, 118, 0);
+}
+#cart{
+    background-color: rgb(255, 216, 20);
+    height: 25px;
+    width: 105px;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+}
+#buy{
+    background-color: rgb(255, 164, 28);
+    height: 24px;
+    width: 105px;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    margin-left: 4px;
+}
