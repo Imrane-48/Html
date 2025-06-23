@@ -1,5 +1,9 @@
 #link{
     color: rgb(0, 113, 133);
+    transition: color 0.2s;
+}
+#link:hover{
+    color: rgb(255, 184, 51);
 }
 #Nike{
     font-size: x-large;
@@ -16,6 +20,13 @@
     border: none;
     border-radius: 55px;
     cursor: pointer;
+    transition: background-color 0.15s, opacity 0.2s;
+}
+#cart:hover{
+    background-color:rgb(228, 198, 44) ;
+}
+#cart:active{
+    opacity: 0.6;
 }
 #buy{
     background-color: rgb(255, 164, 28);
@@ -25,4 +36,12 @@
     border-radius: 55px;
     cursor: pointer;
     margin-left: 4px;
+    transition: background-color 0.15s opacity 0.2s;
+
+}
+#buy:hover{
+    background-color: rgb(241, 145, 0);
+}
+#buy:active{
+    opacity: 0.7;
 }
